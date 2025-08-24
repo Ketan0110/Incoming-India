@@ -1,0 +1,179 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  /* width: 100vw; */
+  scroll-behavior: smooth;
+  scroll-padding: 99px;
+}
+
+
+.listitem:hover .sublist {
+  display: block;
+  position: absolute;
+  text-align: right;
+  /* right: 0; */
+  /* left: 0; */
+}
+
+.listitem:hover .sublist {
+  display: block;
+  position: absolute;
+  text-align: right;
+  /* right: 0; */
+  /* left: 0; */
+
+}
+
+.listitem:hover .down-arrow {
+  rotate: 180deg;
+}
+
+
+
+.hero-shadow {
+  text-shadow: rgb(0, 0, 0) 1px 0 10px;
+}
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* background: #fff; */
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+
+* {
+  /* @apply font-poppins; */
+  /* font-family: 'poppins' !important; */
+  /* border-style: none; */
+  font-family: 'IBM Plex Sans', sans-serif !important;
+}
+
+.no-border {
+  border-style: none !important;
+
+}
+
+
+/* .card {
+  @apply w-72 cursor-pointer border-b-4 rounded-xl h-56 text-center px-3 py-7 self-end duration-500 delay-100;
+}
+
+.card-active {
+  @apply h-96;
+}
+
+.logo {
+  @apply text-5xl mt-2 max-w-[5rem] mx-auto min-w-[5rem] min-h-[5rem] rounded-full text-red-600 grid place-items-center;
+}
+
+.para {
+  @apply mt-3;
+} */
+
+/* .card .skill-level {
+  @apply border-2 border-gray-200 text-white min-w-[3rem] min-h-[3rem]
+    grid place-items-center rounded-full max-w-[3rem] absolute right-0
+    scale-0;
+} */
+
+#sectionDiv {
+  background-image: url("/media/sectionbg.webp");
+  background-size: cover;
+}
+
+#insight-section {
+  background-image: url(https://images.unsplash.com/photo-1617957771979-a91027b58dd0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fHllbGxvdyUyMGdyYWRpZW50fGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+  background-repeat: none;
+  background-size: cover;
+}
+
+#insights {
+  background-image: url(https://i.ibb.co/nkb6vGp/debashis-rc-biswas-dy-PFnxx-Uh-Yk-unsplash-1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+
+  /* padding: 0 2px !important; */
+  /* margin: 2px; */
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  padding: 2px;
+  /* background: #f1f1f1; */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, hsla(31, 100%, 50%, 1) 0%, hsla(31, 100%, 91%, 1) 38%, hsla(0, 0%, 100%, 1) 53%, hsla(122, 100%, 93%, 1) 68%, hsla(122, 100%, 50%, 1) 100%);
+  border-radius: 10px;
+}
+
+#about {
+  background-image: url(https://i.ibb.co/0m9XdVM/stepan-sargsyan-hxk3i-YQyj-G0-unsplash-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#whyus {
+  background-image: url(https://i.ibb.co/BTxjcK1/scott-trento-xr-Bxb-Pi-K2w8-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#insight-section {
+  background-image: url(https://images.unsplash.com/photo-1617957771979-a91027b58dd0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fHllbGxvdyUyMGdyYWRpZW50fGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+  background-repeat: none;
+  background-size: cover;
+}
+
+#insights {
+  background-image: url(https://i.ibb.co/nkb6vGp/debashis-rc-biswas-dy-PFnxx-Uh-Yk-unsplash-1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#presence {
+  background-image: url(https://i.ibb.co/kVnJq3M/z-Trh-LCn1ab-MU-unsplash-1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.nomargin {
+  padding-top: 0 !important;
+}
